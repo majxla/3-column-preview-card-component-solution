@@ -25,10 +25,8 @@ Users should be able to:
 
 ### Screenshot
 
-Web view
 ![](./images/web_view.png)
 
-Mobile view
 ![](./images/mobile_view.png)
 
 ### Links
