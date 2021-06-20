@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [](https://www.frontendmentor.io/solutions/3column-preview-card-component-solution-QG_PIFCJn)
-- Live Site URL: [](https://majxla.github.io/3-column-preview-card-component-solution/)
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/3column-preview-card-component-solution-QG_PIFCJn)
+- Live Site URL: [Live Site](https://majxla.github.io/3-column-preview-card-component-solution/)
 
 ## My process
 
