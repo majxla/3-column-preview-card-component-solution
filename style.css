@@ -1,0 +1,74 @@
+@charset "UTF-8";
+/*CSS Document */
+
+body {
+    font-size: 15px;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 300px);
+    background-color: hsl(0, 0%, 95%);
+    padding: 10% 25%;
+    justify-content: center;
+}
+
+.grid-sedans {
+    background-color: hsl(31, 77%, 52%);
+    height: 500px;
+    border-radius: 2% 0% 0% 2%;
+}
+
+.grid-suvs {
+    background-color: hsl(184, 100%, 22%);
+    height: 500px;
+}
+
+.grid-luxury {
+    background-color: hsl(179, 100%, 13%);
+    height: 500px;
+    border-radius: 0% 2% 2% 0%;
+}
+
+.icon {
+    padding: 15% 15% 0%;
+}
+
+p {
+    padding: 0% 15% 20% 15%;
+    color: hsla(0, 0%, 100%, 0.75);
+    line-height: 25px;
+}
+
+h3 {
+    padding-left: 15%;
+    color: hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 38px;
+}
+
+button {
+    margin-left: 15%;
+    padding: 10px 30px;
+    border-radius: 5em;
+    background-color: hsl(0, 0%, 95%);
+    border: solid hsl(0, 0%, 95%) 2px;
+}
+
+.button-sedans{
+    color: hsl(31, 77%, 52%);
+}
+
+.button-suvs {
+    color: hsl(184, 100%, 22%);
+}
+
+.button-luxury {
+    color: hsl(179, 100%, 13%);
+}
+
+button:hover {
+    background-color: transparent;
+    color: hsl(0, 0%, 95%);
+}
