@@ -4,30 +4,28 @@
 body {
     font-size: 15px;
     font-family: 'Lexend Deca', sans-serif;
+    background-color: hsl(0, 0%, 95%);
 }
 
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(auto-fill, 300px);
-    background-color: hsl(0, 0%, 95%);
+    grid-template-columns: repeat(3, 1fr);
     padding: 10% 25%;
-    justify-content: center;
+    min-width: 375px;
+    max-width: 1440px;
 }
 
 .grid-sedans {
     background-color: hsl(31, 77%, 52%);
-    height: 500px;
     border-radius: 2% 0% 0% 2%;
 }
 
 .grid-suvs {
     background-color: hsl(184, 100%, 22%);
-    height: 500px;
 }
 
 .grid-luxury {
     background-color: hsl(179, 100%, 13%);
-    height: 500px;
     border-radius: 0% 2% 2% 0%;
 }
 
@@ -50,6 +48,7 @@ h3 {
 
 button {
     margin-left: 15%;
+    margin-bottom: 15%;
     padding: 10px 30px;
     border-radius: 5em;
     background-color: hsl(0, 0%, 95%);
