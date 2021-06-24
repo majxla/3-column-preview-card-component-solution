@@ -77,6 +77,10 @@ button:hover {
     cursor: pointer;
 }
 
+.attribution {
+    margin-top: -175px;
+}
+
 @media screen and (max-width:900px) {
     .container {
         flex-direction: column;
