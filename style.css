@@ -7,24 +7,29 @@ body {
     background-color: hsl(0, 0%, 95%);
 }
 
-.grid-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    padding: 10% 25%;
-    min-width: 375px;
-    max-width: 1440px;
+.container {
+    height: 95vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
-.grid-sedans {
+.container div {
+    width: 400px;
+    height: 550px;
+}
+
+.sedans {
     background-color: hsl(31, 77%, 52%);
     border-radius: 2% 0% 0% 2%;
 }
 
-.grid-suvs {
+.suvs {
     background-color: hsl(184, 100%, 22%);
 }
 
-.grid-luxury {
+.luxury {
     background-color: hsl(179, 100%, 13%);
     border-radius: 0% 2% 2% 0%;
 }
@@ -70,4 +75,11 @@ button {
 button:hover {
     background-color: transparent;
     color: hsl(0, 0%, 95%);
+    cursor: pointer;
+}
+
+@media screen and (min-width:800px) {
+    .container {
+        flex-direction: row;
+    }
 }
