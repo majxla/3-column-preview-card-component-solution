@@ -40,12 +40,11 @@ Users should be able to:
 
 - Semantic HTML5 markup
 - CSS custom properties
-- CSS Grid
-- Mobile-first workflow
+- CSS Flexbox
 
 ### What I learned
 
-I mainly learned grid construction.
+I mainly learned flexbox construction.
 It was also my first time with responsiveness.
 
 ## Author
